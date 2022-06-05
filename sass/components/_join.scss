@@ -33,13 +33,18 @@
         fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.socials-link:hover,
-.socials-link:focus {
-    background-color: var(--accent-color);
+
+.socials-link {
+    &:focus,
+    &:hover {
+            background-color: var(--accent-color);
+        }
 }
 
-.socials-item:not(:last-child) {
-    margin-right: 10px;
+.socials-item {
+    &:not(:last-child) {
+            margin-right: 10px;
+        }
 }
 
 .socials-item {

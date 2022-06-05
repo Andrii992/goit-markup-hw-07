@@ -23,8 +23,10 @@
     margin-right: 30px;
 }
 
-.benefit:last-child {
-    margin-right: 0;
+.benefit {
+    &:last-child {
+            margin-right: 0;
+        }
 }
 
 .benefit-ikons {
@@ -40,4 +42,8 @@
 .benefit-ikon {
     background-size: cover;
     justify-content: center;
+}
+
+.section {
+    padding-top: 94px;
 }
