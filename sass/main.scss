@@ -6,11 +6,24 @@
 
 @import "./utils/is-hidden";
 
+
 @import "./components/WebStudio";
 @import "./components/page-header";
 @import "./components/navigation";
 @import "./components/contacts";
 
 
+@import "./components/button";
+@import "./components/modal";
+@import "./components/join";
+
+
+@import "./components/team";
+@import "./components/benefits";
 @import "./components/address";
 @import "./components/page-footer";
+
+
+
+@import "./components/projects-action";
+@import "./components/projects";
